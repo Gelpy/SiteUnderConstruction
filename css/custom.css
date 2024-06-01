@@ -1,0 +1,384 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+  font-family: "Montserrat", sans-serif;
+}
+/*--------------GENERAL--------------*/
+h1{
+  font-size: 4rem;
+  font-weight: 900;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+p{
+  font-size: 1.2rem;
+}
+.blue{
+  color: #2A35B8;
+}
+.orange{
+  color: #F24B2A;
+}
+.white{
+  color: #fff;
+}
+.hdGelpy{
+  background-color: #fff;
+}
+.hdGelpy .navbar-toggler{
+  border: none;
+  padding: 0px;
+}
+.hdGelpy .navbar-collapse{
+  flex-grow: initial;
+}
+.btnBluegp{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #2A35B8;
+  border-radius: 25px;
+  padding: 10px 35px;
+}
+/*--------------CONTENT--------------*/
+.contSlide{
+  background-color: #2A35B8;
+  padding: 80px 40px;
+}
+.icoSlide{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  z-index: 0;
+}
+.icoSlide img{
+  height: 100%;
+}
+.contTxtslide{
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.contTxtslide h1{
+  margin-left: .5rem;
+}
+.contTxtslide h1:after{
+  content: '';
+  position: absolute;
+  top: -50px;
+  left: 125px;
+  width: 140px;
+  height: 10px;
+  background-color: #F24B2A;
+  border-radius: 25px;
+}
+.contTxtslide h1:before{
+  content: '';
+  position: absolute;
+  top: -70px;
+  left: 125px;
+  width: 70px;
+  height: 10px;
+  background-color: #FFF;
+  border-radius: 25px;
+}
+.contTxtslide h2{
+  font-size: 1.5rem;
+  margin-left: 5.5rem;
+}
+.contTxtslide h2:first-child{
+  font-weight: 900;
+}
+.contTxtslide h2:last-child{
+  font-weight: 300;
+}
+.contBenefic, .contPasos, .contCateg{
+  position: relative;
+  z-index: 1;
+}
+.contForm{
+  padding-top: 120px;
+  position: relative;
+  z-index: 3;
+}
+.contBenefic, .contPasos{
+  padding: 40px;
+}
+.listBenefic{
+  width: 60%;
+  text-align: left;
+  background-color: #fff;
+  padding: 10px 40px;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px rgba(42, 53, 184, .3);
+  -webkit-box-shadow: 0px 0px 12px rgba(42, 53, 184, .3);
+  -moz-box-shadow: 0px 0px 12px rgba(42, 53, 184, .3);
+  -o-box-shadow: 0px 0px 12px rgba(42, 53, 184, .3);
+}
+.listBenefic p{
+  margin-bottom: 0px;
+}
+.listBenefic:last-child{
+  margin-bottom: 0px;
+}
+.listPasos, .listPasosDuo{
+  margin: auto;
+  padding: 5px 30px;
+  border: 1px solid #2A35B8;
+  border-radius: 60px;
+  vertical-align: middle;
+}
+.listPasosDuo{
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px 50px;
+}
+.listPasos .numb, .listPasosDuo .numb{
+  font-size: 4rem;
+  line-height: 4rem;
+  margin-right: 10px;
+}
+.listPasos .text, .listPasosDuo .text{
+  font-size: 1.8rem;
+}
+.contSpace{
+  position: relative;
+  padding-top: 200px;
+  background-color: #F5F5F5;
+}
+.contSpace:before{
+  content: '';
+  width: 100%;
+  height: 880px;
+  position: absolute;
+  top: -460px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0 0 100% 100%;
+  background-color: #fff;
+  z-index: 0;
+}
+.contSpace:after{
+  content: '';
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  bottom: -510px;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background-color: #F5F5F5;
+}
+.contSpace img{
+  position: relative;
+  margin-top: -150px;
+  z-index: 1;
+}
+.contCirblue{
+  position: relative;
+  z-index: 1;
+}
+.contCirwhite{
+  position: relative;
+  z-index: 3;
+}
+.contCateg{
+  padding: 0px 40px;
+  background-color: #F5F5F5;
+}
+.contCateg:after{
+  content: '';
+  width: 100%;
+  height: 680%;
+  margin: auto;
+  position: absolute;
+  top: 410px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  background: url('../images/fd-form-dt.png') no-repeat;
+  background-size: 100%;
+  background-position: 0px 0px;
+}
+.dCateg{
+  position: relative;
+  font-weight: 800;
+  color: #2A35B8;
+  margin: 0px 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: #52C2EF;
+  z-index: 1;
+}
+.formBox{
+  position: relative;
+  width: 50%;
+  padding: 60px;
+  margin: auto;
+  border: 3px solid #D8D9EF;
+  border-radius: 25px;
+  background-color: #FFF;
+  z-index: 3;
+}
+.formBox input{
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px rgba(42, 53, 184, .3);
+  -webkit-box-shadow: 0px 5px 12px rgba(42, 53, 184, .3);
+  -moz-box-shadow: 0px 5px 12px rgba(42, 53, 184, .3);
+  -o-box-shadow: 0px 5px 12px rgba(42, 53, 184, .3);
+}
+footer{
+  position: relative;
+  padding-top: 120px;
+  z-index: 2;
+}
+.contBack{
+  padding: 50px 40px;
+  border-radius: 40px 40px 0px 0px;
+  box-shadow: 0px -5px 25px rgba(42, 53, 184, .3);
+  -webkit-box-shadow: 0px -5px 25px rgba(42, 53, 184, .3);
+  -moz-box-shadow: 0px -5px 25px rgba(42, 53, 184, .3);
+  -o-box-shadow: 0px -5px 25px rgba(42, 53, 184, .3);
+}
+.contBack i, .contBack p{
+  font-size: 2rem;
+  font-weight: 700;
+}
+.contBack a{
+  color: #2A35B8;
+  text-decoration: none;
+}
+/*--------------MEDIA QUERY PHONE--------------*/
+@media only screen and (max-width: 576px) {
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1rem;
+  }
+  p{
+    font-size: .6rem;
+  }
+  .contBenefic, .contPasos{
+    padding: 20px 10px;
+  }
+  .btnBluegp{
+    font-size: .8rem;
+  }
+  .hdGelpy .navbar{
+    padding: 10px!important;
+  }
+  .hdGelpy .navbar-brand img{
+    width: 110px;
+  }
+  .hdGelpy .btnBluegp{
+    font-size: .8rem;
+    padding: 5px 15px;
+  }
+  .contSlide{
+    padding: 20px 10px;
+  }
+  .contSlide .container-fluid{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .contTxtslide h1{
+    font-size: 1.5rem;
+    margin-bottom: .8rem!important;
+  }
+  .contTxtslide h1:after{
+    top: -20px;
+    left: 70px;
+    width: 100px;
+    height: 5px;
+  }
+  .contTxtslide h1:before{
+    top: -30px;
+    left: 70px;
+    width: 50px;
+    height: 5px;
+  }
+  .contTxtslide h2{
+    font-size: .7rem;
+    margin-left: 3rem;
+    margin-bottom: .7rem!important;
+  }
+  .listBenefic{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+  .listBenefic span{
+    margin-right: 7px!important;
+  }
+  .listPasos .numb, .listPasosDuo .numb{
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .listPasos .text, .listPasosDuo .text{
+    font-size: .9rem;
+  }
+  .listPasosDuo{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .contSpace:before{
+    height: 230px;
+    top: -140px;
+  }
+  .contSpace:after{
+    bottom: -310px;
+  }
+  .contSpace img{
+    width: 80%;
+  }
+  .dCateg{
+    font-size: .7rem;
+    padding: 5px;
+  }
+  .contCateg:after{
+    width: 100%;
+    height: 540%;
+    top: 236px;
+    left: 0;
+    background: url('../images/fd-form.png') no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+  }
+  .contForm {
+    padding-top: 80px;
+  }
+  .formBox{
+    width: 90%;
+    padding: 30px;
+  }
+  footer{
+    padding-top: 60px;
+  }
+  .contBack {
+    padding: 20px 30px;
+  }
+  .contBack i, .contBack p {
+    font-size: 1.2rem;
+  }
+}
